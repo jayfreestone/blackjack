@@ -1,0 +1,50 @@
+.game {
+	min-height: 100vh;
+	background: grey;
+	display: flex;
+	flex-direction: column;
+	background: #e4e4e4;
+}
+
+.game__scores {
+	background: lighten(#1c1c32, 10%);
+	color: #fff;
+	text-align: center;
+	padding: 2rem;
+	
+	h2 {
+		margin: 0;
+	}
+}
+
+.game__scores__win-text {
+	font-size: 1.6rem;
+	font-style: italic;
+	font-weight: bold;
+	margin: 1rem 0;
+}
+
+.game__hands {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	.hand {
+		flex-grow: 1;
+	}
+}
+
+.game__controls {
+	padding: 2rem;
+	background: #1c1c32;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	button {
+		width: auto;
+		margin: 0 1rem;
+	}
+}

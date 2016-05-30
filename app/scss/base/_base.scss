@@ -1,0 +1,35 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+button {
+	color: #fff;
+	border: 1px solid #fff;
+	background: none;
+	padding: .6rem;
+	min-width: 10rem;
+
+	&:disabled {
+		opacity: .3;
+	}
+}
+
+input,
+label,
+button {
+	appearance: none;
+	-webkit-appearance: none; 
+	width: 100%;
+}
+
+input {
+	padding: .6rem;
+	border: 0;
+}
+

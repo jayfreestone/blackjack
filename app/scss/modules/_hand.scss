@@ -1,0 +1,24 @@
+.hand {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-around;
+
+	&:first-of-type {
+		background: darken(#e4e4e4, 5%);
+	}
+
+	h2,
+	h3 {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+
+.hand__cards {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}

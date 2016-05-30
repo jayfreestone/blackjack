@@ -1,0 +1,22 @@
+.modal {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #1c1c32;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+
+	input {
+		margin: 1rem 0;
+	}
+}
+
+.modal--is-hidden {
+	visibility: hidden;
+	opacity: 0;
+}
